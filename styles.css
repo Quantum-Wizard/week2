@@ -1,0 +1,139 @@
+* { 
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(24, 77, 112);
+}
+a:hover {
+  color: #20076d;
+}
+
+.main-nav {
+  width: 100%;
+  background: rgb(255, 0, 0);
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background: url('images/portland.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header {
+  line-height: 1.5;
+}
+header .profile-image {
+  
+  margin-top: 1px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid rgb(0, 0, 0);
+  left: 1000000000px;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.5) rotate(360deg);
+}
+
+.tag {
+  background-color: #f7f5f0;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+} 
+
+.location {
+  background-color: #dad6cf;
+  color: rgb(58, 7, 7);
+}
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card:hover {
+  border-color: #ff99ff;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff0000;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #000000;
+}
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: 10px;
+  margin-left: 50px;
+  width: 30px;
+  height: 30px;
+}
+a.twitter {
+  
+}
+a.linkedin {
+  
+}
+a.github {
+
+}
